@@ -1,1 +1,4 @@
-
+mvn sonar:sonar \
+  -Dsonar.projectKey=vibhasonarproject \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=528129c9927e82695ec9227fccc484ab3fb1b164
